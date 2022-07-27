@@ -1,0 +1,123 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+img {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  padding-top: 5%;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10%;
+}
+.box .box__center {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.box .box__center .box__center--red {
+  border-top: 3px solid red;
+  height: 15%;
+  width: 15em;
+  background-color: rgb(240, 236, 236);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 15%;
+  padding-bottom: 1rem;
+}
+.box .box__center .box__center--red:hover {
+  background-color: rgb(133, 175, 175);
+}
+.box .box__center--orange {
+  border-top: 3px solid orange;
+  height: 15%;
+  width: 15em;
+  background-color: rgb(240, 236, 236);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 15%;
+  padding-bottom: 1rem;
+}
+.box .box__center--orange:hover {
+  background-color: rgb(133, 175, 175);
+}
+
+.box__right {
+  display: flex;
+  flex-direction: column;
+}
+.box__right .box__right--blue {
+  height: 15%;
+  width: 15em;
+  background-color: rgb(240, 236, 236);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 15%;
+  padding-bottom: 1rem;
+  border-top: 3px solid blue;
+}
+.box__right .box__right--blue:hover {
+  background-color: rgb(133, 175, 175);
+}
+
+.box__left {
+  display: flex;
+  flex-direction: column;
+  border-top: 3px solid aqua;
+}
+.box__left .box__left--aqua {
+  height: 15%;
+  width: 15em;
+  background-color: rgb(240, 236, 236);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 15%;
+  padding-bottom: 1rem;
+}
+.box__left .box__left--aqua:hover {
+  background-color: rgb(133, 175, 175);
+}
+
+@media screen and (max-width: 1914) {
+  h1,
+h2 {
+    font-size: 2.3rem;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=style.css.map */
